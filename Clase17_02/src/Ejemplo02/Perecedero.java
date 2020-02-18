@@ -1,0 +1,48 @@
+package Ejemplo02;
+
+public class Perecedero extends Producto{
+	
+	private int dias_caduca;	
+	
+	public int reducir_precio(int dias_caduca) {
+		
+        if (dias_caduca== 1) {
+			
+			return super.getPrecio()/4;
+			
+		}else
+			
+		if (dias_caduca== 2) {
+			
+			return super.getPrecio()/3;
+			
+		}else
+			
+		if (dias_caduca== 3) {
+			
+			return super.getPrecio()/2;
+			
+		} else {
+			
+			return super.getPrecio();
+			
+		}
+        
+	}
+	
+	public int getDias_caduca() {
+		return dias_caduca;
+	}
+
+	public void setDias_caduca(int dias_caduca) {
+		this.dias_caduca = dias_caduca;
+	}
+
+	@Override
+	public int calcular(int a) {
+				
+	return a*reducir_precio(dias_caduca);	
+		
+	}
+
+}
