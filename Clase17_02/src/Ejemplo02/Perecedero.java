@@ -39,9 +39,9 @@ public class Perecedero extends Producto{
 	}
 
 	@Override
-	public int calcular(int a) {
+	public int calcular() {
 				
-	return a*reducir_precio(dias_caduca);	
+	return super.getCant()*reducir_precio(dias_caduca);	
 		
 	}
 

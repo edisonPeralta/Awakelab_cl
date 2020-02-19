@@ -13,8 +13,8 @@ public class NoPerecedero extends Producto{
 	}
 
 	@Override
-	public int calcular(int a) {
-		return a*super.getPrecio();
+	public int calcular() {
+		return super.getCant()*super.getPrecio();
 	}
 
 }

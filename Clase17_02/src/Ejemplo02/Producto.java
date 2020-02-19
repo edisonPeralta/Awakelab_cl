@@ -1,12 +1,14 @@
 package Ejemplo02;
 
-public abstract class Producto {
-	
+public class Producto {
+
 	private String nombre;
 	private int cant;
 	private int precio;
 	
-	public abstract int calcular(int cant);
+	public int calcular() {
+		return cant;
+	}
 	
 	public String getNombre() {
 		return nombre;
@@ -30,6 +32,11 @@ public abstract class Producto {
 
 	public void setPrecio(int precio) {
 		this.precio = precio;
+	}
+	
+	@Override
+	public String toString() {
+		return "Producto [nombre=" + nombre + ", cant=" + cant + ", precio=" + precio + "]";
 	}
 
 }
