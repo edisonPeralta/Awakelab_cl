@@ -7,8 +7,8 @@ public class Repartidor extends Personal{
 	public Repartidor() {
 	}
 
-	public Repartidor(String zona) {
-		super();
+	public Repartidor(String nombre, int edad, int salario, String zona) {
+		super(nombre, edad, salario);
 		this.zona = zona;
 	}
 	
@@ -24,9 +24,13 @@ public class Repartidor extends Personal{
 	public int plus() {
 		
 		if (super.getEdad()<25 & zona=="3") {			
-			return true;
+			
+			return super.getSalario()+super.PLUS;
+			
 		} else {
-			return false;
+			
+			return super.getSalario();
+			
 		}
 	}
 	

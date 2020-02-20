@@ -1,14 +1,22 @@
 package Ejemplo02;
 
 public class Producto {
-
+	
 	private String nombre;
 	private int cant;
 	private int precio;
 	
-	public int calcular() {
-		return cant;
+	public Producto() {
+
 	}
+	
+	public Producto(String nombre, int cant, int precio) {
+		super();
+		this.nombre = nombre;
+		this.cant = cant;
+		this.precio = precio;
+	}
+
 	
 	public String getNombre() {
 		return nombre;
@@ -32,6 +40,10 @@ public class Producto {
 
 	public void setPrecio(int precio) {
 		this.precio = precio;
+	}
+	
+	public int calcular() {
+		return cant;
 	}
 	
 	@Override

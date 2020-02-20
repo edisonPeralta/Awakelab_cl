@@ -8,7 +8,9 @@ public class Ejecutable {
 	
 	public static void main(String[] args) {
 		
-		Perecedero producto[]= new Perecedero[5];
+		Producto producto[]= new Producto[10];
+		
+	/*	Perecedero producto[]= new Perecedero[5];*/
 		
 		for(int i=0;i<5;i++) {
 				
@@ -25,7 +27,7 @@ public class Ejecutable {
 			
         }
 		
-		NoPerecedero producto2[]= new NoPerecedero[5];
+	/*	NoPerecedero producto2[]= new NoPerecedero[5];
 		
 		for(int i=0;i<5;i++) {
 			
@@ -40,7 +42,7 @@ public class Ejecutable {
 			System.out.println("Agregue Tipo de producto");
 			producto2[i].setTipo(scan.next());
 			
-        } 
+        } */
 		
 		int contador=0;
 		

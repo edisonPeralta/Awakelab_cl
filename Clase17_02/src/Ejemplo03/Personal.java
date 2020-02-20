@@ -5,18 +5,16 @@ public abstract class Personal {
 	private String nombre;
 	private int edad;
 	private int salario;
-	int PLUS = 50000;
+	final int PLUS = 50000;
 
 	public Personal() {
 		
 	}
 	
-	public Personal(String nombre, int edad, int salario, int pLUS) {
-		super();
+	public Personal(String nombre, int edad, int salario) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.salario = salario;
-		PLUS = pLUS;
 	}
 
 	public String getNombre() {

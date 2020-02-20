@@ -7,8 +7,8 @@ public class Comercial extends Personal{
 	public Comercial() {
 	}
 
-	public Comercial(double comision) {
-		super();
+	public Comercial(String nombre, int edad, int salario, double comision) {
+		super(nombre, edad, salario);
 		this.comision = comision;
 	}
 
@@ -23,12 +23,14 @@ public class Comercial extends Personal{
 	@Override
 	public int plus() {
 		
-		int value = (int)comision;
-		
-		if (super.getEdad()>30 & comision>200000) {			
-			return value + super.PLUS;
+		if (super.getEdad()>=30 & comision>=200000) {		
+			
+			return super.getSalario() + super.PLUS;
+			
 		} else {
-			return value;
+			
+			return super.getSalario();
+			
 		}
 		
 	}
