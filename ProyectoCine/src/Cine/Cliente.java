@@ -1,9 +1,11 @@
 package Cine;
 
+import java.util.Scanner;
+
 public class Cliente {
 
-	private int cantEntAdulto;
-	private int cantEntNino;
+	public int cantEntAdulto;
+	public int cantEntNino;
 	
 	public Cliente() {
 		
@@ -31,6 +33,17 @@ public class Cliente {
 	}
 	
 	public int compraCliente() {
-		return 0;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Ingrese la cantidad de entradas de Niño");
+		this.cantEntNino=scan.nextInt();
+		
+		System.out.println("Ingrese la cantidad de entradas de Adulto");
+		this.cantEntAdulto=scan.nextInt();		
+		
+		scan.close();
+		
+		return cantEntAdulto+cantEntAdulto;		
 	}
 }

@@ -7,7 +7,7 @@ public class Sala3D extends Sala{
 	}
 
 	public Sala3D(int numSala, int valorAsiento, int cantAsientos) {
-		super(numSala, valorAsiento, cantAsientos);
+		super(2, 3000, 35);
 	}
 
 	@Override

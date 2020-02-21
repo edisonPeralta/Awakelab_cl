@@ -7,7 +7,7 @@ public class SalaImax extends Sala{
 	}
 
 	public SalaImax(int numSala, int valorAsiento, int cantAsientos) {
-		super(numSala, valorAsiento, cantAsientos);
+		super(3, 5000, 45);
 	}
 
 	@Override
