@@ -4,7 +4,31 @@ import java.util.Scanner;
 
 public class Funciones {
 	
-	 
+	String funcion[][] = new String[4][4]; 
+	
+	Sala2D sala= new Sala2D();{
+	
+		funcion[0][0] = Integer.toString(sala.getNumSala());
+		funcion[0][1] = "LA OLA";
+		funcion[0][2] = "12:00";
+		funcion[0][3] = "1";
+	
+		funcion[1][0] = Integer.toString(sala.getNumSala());
+		funcion[1][1] = "LA LUNA";
+		funcion[1][2] = "15:00";
+		funcion[1][3] = "2";
+	
+		funcion[2][0] = Integer.toString(sala.getNumSala());
+		funcion[2][1] = "LA TIERRA";
+		funcion[2][2] = "21:00";
+		funcion[2][3] = "3";
+	
+		funcion[3][0] = Integer.toString(sala.getNumSala());
+		funcion[3][1] = "EL CIELO";
+		funcion[3][2] = "19:00";
+		funcion[3][3] = "4";}
+	
+	
 	 
 	/*private int horario;
 	private String nombre;
@@ -46,7 +70,14 @@ public class Funciones {
 		this.tipoSala = tipoSala;
 	}*/
 
-	public int reservar(int entrada , int dimension, int asientos[]) {
+	Cliente clien = new Cliente();
+	
+	
+	int dimension = sala.cantAsientos;
+	int entrada = clien.compraCliente();
+	int asientos[] = new int [dimension];
+	
+	public int reservar(int entrada, int dimension, int asientos[]) {
 		Scanner read = new Scanner(System.in);
 		int a=0;
 		int z;
@@ -71,7 +102,7 @@ public class Funciones {
 		read.close();
 	}
 	
-	public int pintar(int dimension, int asientos[]) {
+	public int pintar(int dimension , int asientos[]) {
 		int i;
 		int j;
 		int k;

@@ -17,10 +17,15 @@ public class Ejecutable {
 		System.out.println("3.- Sala 4DX");
 		System.out.println("4.- Sala Imax");*/
 		
+		System.out.println("Elija Pelicula.");
+		System.out.println(" ");
+		System.out.println("N° SALA    NOMBRE PELICULA  HORARIO    TIPO DE SALA");
+		
 		for (int i=0; i<4; i++){
-			for (int j=0; i<4; i++){
-				System.out.println("Elija Pelicula.");
-				System.out.println(objFunciones.funcion[i][j]);
+			for (int j=0; j<4; j++){	
+				
+				System.out.print(objFunciones.funcion[i][j]);
+				
 			}
 		}
 		

@@ -1,6 +1,6 @@
 package Cine;
 
-public abstract class Sala {
+public class Sala {
 
 	private int numSala;
 	private int valorAsiento;
@@ -40,5 +40,7 @@ public abstract class Sala {
 		this.cantAsientos = cantAsientos;
 	}
 	
-	public abstract int recaudacionDia();
+	public int recaudacionDia() {
+		return 0;
+	}
 }
