@@ -13,7 +13,7 @@ public class Caguano extends Carro {
 	public Caguano(int cantidadOcup, String fechaingreso, int ubicaciónTableroF, int ubicaciónTableroC, int alcanceTiro, String colorConfetti) {		
 		super(cantidadOcup, fechaingreso, ubicaciónTableroF, ubicaciónTableroC);		
 		this.alcanceTiro = alcanceTiro;		
-		ColorConfetti = colorConfetti;
+		this.ColorConfetti = colorConfetti;
 	}
 
 	public int getAlcanceTiro() {

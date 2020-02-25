@@ -10,14 +10,10 @@ public class Trupalla extends Carro{
 		super();
 	}
 	
-	public Trupalla(int cantidadOcup, String fechaingreso, int ubicaciónTableroF, int ubicaciónTableroC, int nivelArm,
-			String nombrePiloto) {
-		
-		super(cantidadOcup, fechaingreso, ubicaciónTableroF, ubicaciónTableroC);
-		
-		NivelArm = nivelArm;
-		
-		NombrePiloto = nombrePiloto;
+	public Trupalla(int cantidadOcup, String fechaingreso, int ubicaciónTableroF, int ubicaciónTableroC, int nivelArm, String nombrePiloto) {		
+		super(cantidadOcup, fechaingreso, ubicaciónTableroF, ubicaciónTableroC);		
+		this.NivelArm = nivelArm;		
+		this.NombrePiloto = nombrePiloto;
 	}
 		
 	public int getNivelArm() {

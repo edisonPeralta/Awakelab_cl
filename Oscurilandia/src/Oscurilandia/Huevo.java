@@ -2,34 +2,34 @@ package Oscurilandia;
 
 public class Huevo {
 	
-	String fila;
-	String columna;
+	int fila;
+	int columna;
 	int puntaje;
 	
 	public Huevo() {
 		
 	}
 	
-	public Huevo(String fila, String columna, int puntaje) {
+	public Huevo(int fila, int columna, int puntaje) {
 		super();
 		this.fila = fila;
 		this.columna = columna;
 		this.puntaje = puntaje;
 	}
 
-	public String getFila() {
+	public int getFila() {
 		return fila;
 	}
 
-	public void setFila(String fila) {
+	public void setFila(int fila) {
 		this.fila = fila;
 	}
 
-	public String getColumna() {
+	public int getColumna() {
 		return columna;
 	}
 
-	public void setColumna(String columna) {
+	public void setColumna(int columna) {
 		this.columna = columna;
 	}
 
