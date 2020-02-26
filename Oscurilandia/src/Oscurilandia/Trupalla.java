@@ -1,6 +1,5 @@
 package Oscurilandia;
 
-
 public class Trupalla extends Carro{
 	
 	private int NivelArm; // nivel de la armadura (1-5)	
@@ -11,7 +10,7 @@ public class Trupalla extends Carro{
 	}
 	
 	public Trupalla(int cantidadOcup, String fechaingreso, int ubicaciónTableroF, int ubicaciónTableroC, int nivelArm, String nombrePiloto) {		
-		super(cantidadOcup, fechaingreso, ubicaciónTableroF, ubicaciónTableroC);		
+		super(cantidadOcup, fechaingreso, ubicaciónTableroF, ubicaciónTableroC);//atributos		
 		this.NivelArm = nivelArm;		
 		this.NombrePiloto = nombrePiloto;
 	}
@@ -34,8 +33,7 @@ public class Trupalla extends Carro{
 
 	@Override
 	public void datosCarro() {
-		// TODO Auto-generated method stub
-		
-	}	
-	
+			
+	}
+
 }

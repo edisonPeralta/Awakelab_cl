@@ -15,7 +15,7 @@ public class Kromi extends Carro{
 		this.año = año;
 		this.marca = marca;
 	}
-
+	
 	public String getMarca() {
 		return marca;
 	}
@@ -32,10 +32,8 @@ public class Kromi extends Carro{
 		this.año = año;
 	}
 
-	@Override
 	public void datosCarro() {
-		// TODO Auto-generated method stub
 		
 	}
-	
+		
 }

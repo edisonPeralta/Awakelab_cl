@@ -1,6 +1,5 @@
 package Oscurilandia;
 
-
 public class Caguano extends Carro {
 	
 	private int alcanceTiro; // alcance de tiro del Caguano	
@@ -36,5 +35,4 @@ public class Caguano extends Carro {
 	public void datosCarro() {
 		
 	}
-
 }
