@@ -9,9 +9,8 @@ public class Tablero {
 	int Carro [];
 	int huevo[];
 	
-	int largo=16;
-	int ancho=16;
-	int casilla[][] = new int[largo][ancho];
+	
+	int casilla[][] = new int[15][15];
 	
 	public Tablero() {
 
@@ -44,11 +43,23 @@ public class Tablero {
 				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
 	
-	public int crearCarro() {
-		return 0;
+	public void crearCarro() {
+		
+		Carro objCarro = new Kromi();
+		
+		
 	}
 	
-	public void lanzarHuevo(int largo, int ancho, int casilla[][]) {
+	public void lanzarHuevo(int largo, int ancho) {
+		
+		int x;
+		int y;
+		for (x=0;x<largo;x++) {
+			for (y=0;y<ancho;y++) 
+			{
+				casilla[x][y]=0;
+			}
+		}
 		
 		Scanner read = new Scanner(System.in);
 		int a=0;
@@ -57,27 +68,27 @@ public class Tablero {
 		String z;
 		{
 			System.out.println("Elija un Casillero a lanzar Huevo Ej:'XX'");
-					z = read.nextLine();
-					for (int i = 0; i < z.length; i++){
-					    char letra = z.charAt(i);
-					    if(i==0) {
-					    	letraA= Integer.parseInt(z.charAt(i));
-					    }
-					    if(i==1) {
-						    letraB= Integer.parseInt(z.charAt(i));
-						}
-					    //Tratamiento del caracter
-					}
-					
-					System.out.println(""); 
-					if (casilla[letraA-1][letraB-1]==1) 
-					{
-						a = a+1;
-						casilla[letraA-1][letraB-1] = 0;
-						mostrarMatriz(largo, ancho);
-					} 
-					
+			z = read.nextLine();
+			
+			for (int i = 0; i < z.length(); i++){
+			    char letra = z.charAt(i);
+			    if(i==0) {
+			    	letraA= z.charAt(i);
+			    }
+			    
+			    if(i==1) {
+				    letraB= z.charAt(i);
+				}
 			}
+					
+			System.out.println("");
+			if (casilla[letraA-1][letraB-1]==0) {
+				a = a+1;
+				casilla[letraA-1][letraB-1]=1;
+				mostrarMatriz(largo, ancho);
+			} 
+					
+		}
 		read.close();
 	}
 	
@@ -87,21 +98,20 @@ public class Tablero {
 		int j;
 		int k;
 		k = 1;
+		
 		for (i=0;i<largo;i++) {
 			for (j=0;j<ancho;j++) 
 			{
-				if (casilla[k][k]==1) 
+				if (casilla[i][j]==1) 
 				{
-					if (k<10) 
-					{
-						System.out.print(" "+k+" - ");
-					} else {
-						System.out.print(k+" - ");
-					}
+					
+					System.out.print("[ ]");
+					
 				}
-				if (casilla[k][k]==0) 
+				if (casilla[i][j]==0) 
 				{
-					System.out.print("XX - ");
+					//System.out.print("XX - ");
+					System.out.print("["+"H"+"]");
 				}
 				k = k+1;
 			}
@@ -117,7 +127,7 @@ public class Tablero {
 				if (j==15) {
 					System.out.print("|   |");					
 				}else {
-					System.out.print("|   ");
+					System.out.print("|   |");
 				}
 					
 			}
