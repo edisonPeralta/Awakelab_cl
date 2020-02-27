@@ -1,6 +1,5 @@
 package Oscurilandia;
 
-
 public class Kromi extends Carro{
 	
 	private int año; //año de fabricación de la Kromi	

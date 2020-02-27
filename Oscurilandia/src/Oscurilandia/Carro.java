@@ -1,6 +1,5 @@
 package Oscurilandia;
 
-
 public abstract class Carro {
 
 	private int cantidadOcup; // cantidad de agentes que lleva dentro

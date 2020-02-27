@@ -1,17 +1,17 @@
 package Oscurilandia;
 
 import java.util.*;
-public class Tablerodos {
+
+public class Tablero {
 	
 		int Carro [][];
 		int huevo[][];
 		
-		
-		public Tablerodos() {
+		public Tablero() {
 			
 		}
 
-		public Tablerodos(int[][] carro, int[][] huevo) {
+		public Tablero(int[][] carro, int[][] huevo) {
 			super();
 			Carro = carro;
 			this.huevo = huevo;
@@ -39,12 +39,44 @@ public class Tablerodos {
 		}
 		
 		public void crearCarro() {
-//			Carro objCarro[] = new Carro[18];
+
 		}
 		
-	public int mostrarTablero(int largo, int ancho){
-		
-		int contador = 0;
+		public void mostrarTablero(int largo, int ancho){
+			
+		int i;
+		int p;
+			
+			for (i=1;i<16;i++) {
+				
+				if ((i==1) && (i<16)){			
+					System.out.println					
+					("    1   2   3   4   5   6   7   8   9   10  11  12  13  14  15");    				
+				}
+				
+				System.out.println(" ______________________________________________________________");
+				
+				
+				for (p=1;p<18;p++) {						
+						
+					if (p==18) {				
+							System.out.print("|   |");					
+						}else if((p==1) && (i<10)){						
+							System.out.print(" "+i);
+						}else if((p==1) && (i>9 && i<16)){
+						    System.out.print(i);
+						}else {						
+							System.out.print(" |  ");
+						}
+							
+				}
+					
+				System.out.println("");
+			}
+			System.out.println(" ______________________________________________________________"); 
+	} 	  
+	
+	public void lanzarHuevo() {
 		
 		int[][] tableroM =new int [16][18];
 		for(int i = 0; i<16;i++) 
@@ -116,133 +148,19 @@ public class Tablerodos {
 			}
 		}
 		
-/*		
-		int i;
-		int p;
-		for (i=1;i<16;i++) {			
-			   
-			if ((i==1) && (i<16)){				
-				System.out.println("     1   2   3   4   5   6   7   8   9   10  11  12  13  14  15");    				
-			}
-			
-			System.out.println(" ______________________________________________________________");	
-			
-			for (p=1;p<18;p++) {	
-				
-				if (tableroM[i][p]==2) {
-					
-					if (p==18) {				
-						System.out.print("| T |");					
-					}else if((p==1) && (i<10)){						
-						System.out.print(" "+i);
-					}else if((p==1) && (i>9 && i<16)){
-						System.out.print(i);
-					}else {						
-						System.out.print(" | T");
-					}					
-					contador=2;
-				}else
-					
-				if (tableroM[i][p]==3) {
-						
-					if (p==18) {				
-						System.out.print("| C |");					
-					}else if((p==1) && (i<10)){						
-						System.out.print(" "+i);
-					}else if((p==1) && (i>9 && i<16)){
-						System.out.print(i);
-					}else {						
-						System.out.print(" | C");
-					}					
-					contador=3;	
-				}else
-					
-				if (tableroM[i][p]==4) {
-						
-					if (p==18) {				
-						System.out.print("| K |");					
-					}else if((p==1) && (i<10)){						
-						System.out.print(" "+i);
-					}else if((p==1) && (i>9 && i<16)){
-						System.out.print(i);
-					}else {						
-						System.out.print(" | K");
-					}					
-					contador=4;			
-				}else
-					
-				if (p==18) {				
-					System.out.print("|   |");					
-				}else if((p==1) && (i<10)){						
-					System.out.print(" "+i);
-				}else if((p==1) && (i>9 && i<16)){
-					System.out.print(i);
-				}else {						
-					System.out.print(" |  ");
-				}
-						
-			}
-				
-			System.out.println("");
-		}
-			
-
- * 		int largo=16;
-//		int ancho=18;
-		int i;
-		int p;
-	
-//		int tablero[][] = new int[largo][ancho];{			
-			for (i=1;i<16;i++) {
-				
-				if ((i==1) && (i<16)){			
-					System.out.println					
-					("    1   2   3   4   5   6   7   8   9   10  11  12  13  14  15");    				
-				}
-				
-				System.out.println(" ______________________________________________________________");
-				
-				
-				for (p=1;p<18;p++) {						
-						
-					if (p==18) {				
-							System.out.print("|   |");					
-						}else if((p==1) && (i<10)){						
-							System.out.print(" "+i);
-						}else if((p==1) && (i>9 && i<16)){
-						    System.out.print(i);
-						}else {						
-							System.out.print(" |  ");
-						}
-							
-				}
-					
-				System.out.println("");
-			}
-			System.out.println(" ______________________________________________________________"); 
-	} 
-*/
-		return contador;
-	
-	}	  
-	
-	public void lanzarHuevo() {
-		
-		
 		int[][] aux =new int [16][18];
 		for(int i = 0; i<16;i++) 
 		{
 			for(int j=0;j<18;j++)
 			{
-				aux[i][j]=mostrarTablero(i,j);
-				
+				aux[i][j]=tableroM[i][j];
 			}
 		}
 		
 		Scanner read = new Scanner(System.in);
 		int total=0;
-		int numeroA;
-		int numeroB;
+		int numeroA=0;
+		int numeroB=1;
 		int z;
 		
 		int[][] tablero =new int [16][18];
@@ -254,10 +172,11 @@ public class Tablerodos {
 			}
 		}
 		
-		do {
+		while (numeroA+numeroB > 0) {
 			
 			int i;
 			int p;
+			
 			for (i=1;i<16;i++) {			
 				   
 				if ((i==1) && (i<16)){				
@@ -312,83 +231,99 @@ public class Tablerodos {
 			z = read.nextInt();
 			numeroB = z;
 			
-//			static ArrayList <Huevo> huevos= new ArrayList();
+			if (numeroA>=0 && numeroA<16 && numeroB>=0 && numeroB<16) {
+				if (numeroA!=0 | numeroB!=0)	{
 			
-			if (numeroA!=0 | numeroB!=0)	{	
-				
-//				huevos.add();
+					tablero[numeroB][numeroA+1]=1; 
+					System.out.println("Huevo lanzado con exito!!");
+					System.out.println("");
 			
-				tablero[numeroB][numeroA+1]=1; 
-				System.out.println("Exito!!");
-				System.out.println("");
+				}
 			
-			}
-			
-			if (aux[numeroB][numeroA+1]==2) { //Sumamos Valor de las "TRUPALLAS" =1PTS
+				//Sumamos Valor de las "TRUPALLAS" =1PTS
+				if (aux[numeroB][numeroA+1]==2) {
 				
 				total=total+1;
 				aux[numeroB][numeroA+1]=7;
+				// Asignamos un valor distinto dentro del arreglo cuando acierta un huevo para diferenciar de los que ya acerto y no sume nuevamente
+				System.out.println("Acertaste una Trupalla, Ganas 1 Puntos!!!");
+				System.out.println("");
 				
-			}
+				}
 			
-			if (aux[numeroB][numeroA+1]==3) { //Sumamos Valor de las "CAGUANOS" =2PTS
+				//Sumamos Valor de los "CAGUANOS" =2PTS
+				if (aux[numeroB][numeroA+1]==3) { 
 				
-				if	(aux[numeroB][numeroA+1]+1==2) { //Sumamos al Valor 7PTS en caso que se destruya completo el "CAGUANO"
+					if	(aux[numeroB][(numeroA+1)+1]==5) { //Sumamos al Valor 7PTS en caso que se destruya completo el "CAGUANO"
 					
-					total=total+7;
+						total=total+7;
+						System.out.println("Destruiste un Caguano, Ganas 7 Puntos extra!!!");
+						System.out.println("");
 					
-				}else if(aux[numeroB][numeroA]==5){ //Sumamos al Valor 7PTS en caso que se destruya completo el "CAGUANO"
+					}else if(aux[numeroB][numeroA]==5){ 
 					
-					total=total+7;
+						total=total+7;
+						System.out.println("Destruiste un Caguano, Ganas 7 Puntos extra!!!");
+						System.out.println("");
+					
+					}
+				
+					total=total+2; 
 					aux[numeroB][numeroA+1]=5;
+					// Asignamos un valor distinto dentro del arreglo cuando acierta un huevo para diferenciar de los que ya acerto y no sume nuevamente
+					System.out.println("Acertaste un Caguano, Ganas 2 Puntos!!!");
+					System.out.println("");
+				
 				}
-				
-				total=total+2;
-				
-			}
 			
-			if (aux[numeroB][numeroA+1]==4) { //Sumamos Valor de las "KROMIS" =3PTS
+				//Sumamos Valor de las "KROMIS" =3PTS
+				if (aux[numeroB][numeroA+1]==4) { 
 				
-				if (aux[numeroB+1][numeroA+1]==6 && aux[numeroB+2][numeroA+1]==6 | aux[numeroB+1][numeroA+1]==6 && aux[numeroB-1][numeroA+1]==6) { //Sumamos al Valor 10PTS en caso que se destruya completo el "KROMI"
+					if (aux[numeroB+1][numeroA+1]==6 && aux[numeroB+2][numeroA+1]==6) { //Sumamos al Valor 10PTS en caso que se destruya completa la "KROMI"
 					
-					total=total+10;
+						total=total+10;
+						System.out.println("Destruiste una Kromi, Ganas 10 Puntos extra!!!");
+						System.out.println("");
 					
-				}else if(aux[numeroB-1][numeroA]==6 && aux[numeroB-2][numeroA+1]==6){ //Sumamos al Valor 10PTS en caso que se destruya completo el "KROMI"
+					}else if(aux[numeroB+1][numeroA+1]==6 && aux[numeroB-1][numeroA+1]==6) { 
 					
-					total=total+10;
+						total=total+10;
+						System.out.println("Destruiste una Kromi, Ganas 10 Puntos extra!!!");
+						System.out.println("");
 					
-				}
+					}else if(aux[numeroB-1][numeroA+1]==6 && aux[numeroB-2][numeroA+1]==6){ 
+					
+						total=total+10;
+						System.out.println("Destruiste una Kromi, Ganas 10 Puntos extra!!!");
+						System.out.println("");
+					
+					}
 				
-				total=total+3;
-				aux[numeroB][numeroA+1]=6;
+					total=total+3;
+					aux[numeroB][numeroA+1]=6;
+					// Asignamos un valor distinto dentro del arreglo cuando acierta un huevo para diferenciar de los que ya acerto y no sume nuevamente
+					System.out.println("Acertaste una Kromi, Ganas 3 Puntos!!!");
+					System.out.println("");
 								
+				}
+			}else {
+				System.out.println("Parametros no existen.");
+				System.out.println("");
 			}
 			
-		}while (numeroA+numeroB != 0);
-			
+		}
+		
+		System.out.println(" ");
+		System.out.println("==============================");
+		System.out.println("==============================");
+		System.out.println("Su Puntaje total fue: "+total);
+		System.out.println("==============================");
+		System.out.println("==============================");
+		System.out.println(" ");
 		System.out.println("Good Bye...");	
 		
-		
-//				for (int i = 0; i < z; i++){	
-//					    if(i==0) {
-//					    	System.out.println("tu huevo se estrelló en el suelo :(");
-//					    }
-//					    if(i==1) {
-//						    System.out.println("le achuntaste ");
-//						}
-//					}
-
-//		int[][]C =new int[16][18]; 
-		
-//		for(int f = 0; f<16;f++) 
-//		{
-//			for(int j=0;j<18;j++)
-//			{
-//				C[f][j]=0; 
-//			}
-//			}	
-		
 		read.close();
+		System.out.println(" ");
 	}
 }
 
