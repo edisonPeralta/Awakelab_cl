@@ -327,45 +327,6 @@ public class Tablerodos {
 			int i;
 			int p;
 			
-/*			for (i=1;i<16;i++) {			
-				   
-				if ((i==1) && (i<16)){				
-					System.out.println("     1   2   3   4   5   6   7   8   9   10  11  12  13  14  15");    				
-				}
-				
-				System.out.println(" ______________________________________________________________");				
-				
-				for (p=1;p<18;p++) {			
-						
-					if (aux[i][p]==1) {
-						
-						if (p==18) {				
-							System.out.print("| "+aux[i][p]+" |");					
-						}else if((p==1) && (i<10)){						
-							System.out.print(" "+i);
-						}else if((p==1) && (i>9 && i<16)){
-							System.out.print(i);
-						}else {						
-							System.out.print(" | "+aux[i][p]);
-						}
-						
-					}else if (p==18) {				
-						System.out.print("| "+aux[i][p]+" |");					
-					}else if((p==1) && (i<10)){						
-						System.out.print(" "+i);
-					}else if((p==1) && (i>9 && i<16)){
-						System.out.print(i);
-					}else {						
-						System.out.print(" | "+aux[i][p]);
-					}
-					
-				}
-					
-				System.out.println("");
-			}*/
-			
-//			System.out.println(" ______________________________________________________________"); 
-			
 			for (i=1;i<16;i++) {			
 				   
 				if ((i==1) && (i<16)){				
@@ -420,11 +381,7 @@ public class Tablerodos {
 			z = read.nextInt();
 			numeroB = z;
 			
-//			static ArrayList <Huevo> huevos= new ArrayList();
-			
 			if (numeroA!=0 | numeroB!=0)	{	
-				
-//				huevos.add();
 			
 				tablero[numeroB][numeroA+1]=1; 
 				System.out.println("Exito!!");
@@ -478,26 +435,6 @@ public class Tablerodos {
 		}
 			
 		System.out.println("Good Bye...");	
-		
-		
-//				for (int i = 0; i < z; i++){	
-//					    if(i==0) {
-//					    	System.out.println("tu huevo se estrelló en el suelo :(");
-//					    }
-//					    if(i==1) {
-//						    System.out.println("le achuntaste ");
-//						}
-//					}
-
-//		int[][]C =new int[16][18]; 
-		
-//		for(int f = 0; f<16;f++) 
-//		{
-//			for(int j=0;j<18;j++)
-//			{
-//				C[f][j]=0; 
-//			}
-//			}	
 		
 		read.close();
 		System.out.println(" ");
