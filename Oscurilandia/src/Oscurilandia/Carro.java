@@ -51,9 +51,10 @@ public abstract class Carro {
 	}
 	
 	public String toString() {
-		return "Carro [cantidadOcup=" + cantidadOcup + ", fechaingreso=" + fechaingreso + ", ubicaciónTableroF="
-				+ ubicaciónTableroF + ", ubicaciónTableroC=" + ubicaciónTableroC + "]";
+		return "Carro [la cantidad de ocupantes de esta trupalla es= " + cantidadOcup + ", su fecha de ingreso= " + fechaingreso + ", su fila= "
+				+ ubicaciónTableroF + ", su columna =" + ubicaciónTableroC + "]";
 	}
 	
 	public abstract void datosCarro();
+	
 }
