@@ -5,6 +5,7 @@ public class Trupalla extends Carro{
 	private int NivelArm; // nivel de la armadura (1-5)	
 	private String NombrePiloto; // Nombre de quien conduce la Trupalla
 	
+	// Constructores.
 	public Trupalla() {	
 		super();
 	}
@@ -15,6 +16,7 @@ public class Trupalla extends Carro{
 		this.NombrePiloto = nombrePiloto;
 	}
 		
+	// Getters y Setters.
 	public int getNivelArm() {
 		return NivelArm;
 	}
