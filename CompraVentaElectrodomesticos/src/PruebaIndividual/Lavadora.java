@@ -5,7 +5,7 @@ public class Lavadora extends Electrodomesticos{
 	//Definicion de atributos constantes y variables 
 	static final int CARGA = 5;
 	
-	int carga;
+	private int carga;
 	
 	
 	//Declaracion de constructores

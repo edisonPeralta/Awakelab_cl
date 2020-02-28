@@ -8,10 +8,10 @@ public class Electrodomesticos {
 	static final char CONSUMO_ENERGETICO = 'F';
 	static final int PESO = 5;
 	
-	double precioBase;
-	double peso;
-	String color;
-	char consumoEnergetico;
+	private double precioBase;
+	private double peso;
+	private String color;
+	private char consumoEnergetico;
 	
 	//Constructores
 	public Electrodomesticos() {

@@ -4,9 +4,9 @@ public class Television extends Electrodomesticos{
 	
 	//Definicion de atributos constantes y variables
 	final static int RESOLUCION = 20;
-	boolean sintonizadorTDT = false;
+	private boolean sintonizadorTDT = false;
 	
-	int resolucion;
+	private int resolucion;
 	
 	//Declaracion de constructores
 	public Television() {
