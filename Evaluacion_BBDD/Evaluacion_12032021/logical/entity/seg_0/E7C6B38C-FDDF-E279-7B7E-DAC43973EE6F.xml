@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7C6B38C-FDDF-E279-7B7E-DAC43973EE6F" name="Test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>B66A7E8E-1215-2C08-0805-462C3567CB31</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Test" id="1B69844D-3DCF-F24C-B038-42C982F8900D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>6CE94702-5D78-9840-C570-0B7C6C80F32D</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A719A403-6F71-3F71-0A63-A4D3FFAB955F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>DC44E145-EFF4-1E4C-9E9D-58141673B371</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="2C7BB16A-0D4E-F275-F23E-9EF6C22CA0A0">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>9297AC82-3D96-29E5-D017-56C24E2520D2</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Programa" id="F836964B-4D83-30C0-6FAF-9F6B135E03ED">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>5856F6AA-FD25-3D73-369E-A83A7F9FDB56</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidad" id="0587CD23-DEA8-90BD-D8DE-3C8D672D98B1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>D9BDC6ED-8AAB-E6E5-46F9-AB67D8143B3D</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Autor" id="E6285B58-BCB9-615F-1EB1-E603F58B9F6A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>6284BFF6-0363-949D-1D73-1B7E7F96525D</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Creacion" id="A04E523E-F317-E3CB-D666-78E5AFDD4A29">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>0FC68FF4-1151-D6DE-DAE8-875243390BFF</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Curso Id Curso" id="B563A7A0-D7B4-875A-22C7-A22162BA7DAF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>92C1EE26-5BB4-8068-6807-76C3787932C8</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<referedAttribute>D1F94968-300B-397D-C4B4-95D977B4D455</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2229732-571E-7FFE-3ABB-34DB05B70900" name="Test PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:41:32 UTC</createdTime>
+<generatorID>07EF1091-C477-74B1-7A2F-829BF1AB6043</generatorID>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<engineerTo>
+<item key="7FCFF397-E5B6-DA00-D9E7-DC45B188A06F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B69844D-3DCF-F24C-B038-42C982F8900D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

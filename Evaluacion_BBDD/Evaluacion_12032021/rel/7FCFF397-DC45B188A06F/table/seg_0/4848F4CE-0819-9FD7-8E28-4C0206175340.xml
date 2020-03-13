@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4848F4CE-0819-9FD7-8E28-4C0206175340" name="Alternativas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:54:59 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Alternativa" id="E429F4BD-5467-3ECC-A16A-C053D7F67B5A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:56:42 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="245DE1E9-F821-4AD2-C499-D9DCA3DCED71">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:56:42 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_Logico" id="6F6ABE1C-E9D4-A6B9-68C5-2BCD334B30B3">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:56:42 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_Porcentual" id="39E44118-EAE4-B20D-47D2-AB3D51A8E8EB">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:56:42 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preguntas_Id_Unico" id="018AB44D-E533-CE69-7ABC-29267E37B3C4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:59:58 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5CD469F-527B-1699-5DF5-96F7D20DBEFA" referredColumn="C6941AC8-57B9-7EAF-01ED-B486DA103330"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97273A80-3CC7-E545-2F4D-3F283FF6B57A" name="Alternativas_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:56:42 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E429F4BD-5467-3ECC-A16A-C053D7F67B5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3608FC43-6503-889B-D753-45A106D77613" name="Alternativas_Preguntas_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:59:58 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018AB44D-E533-CE69-7ABC-29267E37B3C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

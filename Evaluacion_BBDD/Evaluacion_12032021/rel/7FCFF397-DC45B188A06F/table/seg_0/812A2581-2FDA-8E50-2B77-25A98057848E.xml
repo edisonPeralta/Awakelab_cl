@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="812A2581-2FDA-8E50-2B77-25A98057848E" name="Curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:58:47 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Curso" id="DCE89ADE-9EB8-43D0-949F-AB2444025D77">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:59:10 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Curso" id="EEF98E56-AFE3-E58C-6E23-06FE5209720C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:49:03 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7C47F47-2273-E155-3700-0B5644150915" name="Curso_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:59:10 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCE89ADE-9EB8-43D0-949F-AB2444025D77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

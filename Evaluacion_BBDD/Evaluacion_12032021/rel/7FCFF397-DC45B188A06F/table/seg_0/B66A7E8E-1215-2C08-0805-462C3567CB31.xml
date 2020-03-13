@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B66A7E8E-1215-2C08-0805-462C3567CB31" name="Test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:50:31 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Test" id="6CE94702-5D78-9840-C570-0B7C6C80F32D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DC44E145-EFF4-1E4C-9E9D-58141673B371">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="9297AC82-3D96-29E5-D017-56C24E2520D2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Programa" id="5856F6AA-FD25-3D73-369E-A83A7F9FDB56">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidad" id="D9BDC6ED-8AAB-E6E5-46F9-AB67D8143B3D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autor" id="6284BFF6-0363-949D-1D73-1B7E7F96525D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Creacion" id="0FC68FF4-1151-D6DE-DAE8-875243390BFF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:39 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_Id_Curso" id="57789B2B-02F9-F871-65E3-1576B4C881FC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:00:26 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5570EFD5-7944-198C-D104-354741048792" referredColumn="DCE89ADE-9EB8-43D0-949F-AB2444025D77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07EF1091-C477-74B1-7A2F-829BF1AB6043" name="Test_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:53:07 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE94702-5D78-9840-C570-0B7C6C80F32D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70B2B57C-E515-842D-5C17-E608C45A08A7" name="Test_Curso_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:00:26 UTC</createdTime>
+<ownerDesignName>Evaluacion_12032021</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57789B2B-02F9-F871-65E3-1576B4C881FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
