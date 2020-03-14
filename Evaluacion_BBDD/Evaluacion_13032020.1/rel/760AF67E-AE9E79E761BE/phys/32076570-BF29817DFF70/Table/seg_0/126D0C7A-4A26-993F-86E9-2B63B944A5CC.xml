@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="curso" directorySegmentName="seg_0" id="126D0C7A-4A26-993F-86E9-2B63B944A5CC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre_curso" id="4801ACE4-99FA-8836-8DB4-5A8DA5A2260C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_curso" id="FC341B2F-B696-666D-189F-778C74E15CAA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="curso_pk" id="AA7AB566-4E42-E76A-E842-C24B8E847601">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

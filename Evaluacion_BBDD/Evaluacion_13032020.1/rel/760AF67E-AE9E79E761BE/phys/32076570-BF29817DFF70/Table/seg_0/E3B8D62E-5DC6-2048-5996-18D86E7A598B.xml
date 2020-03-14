@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Repuestas" directorySegmentName="seg_0" id="E3B8D62E-5DC6-2048-5996-18D86E7A598B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:10:33 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id_Respuestas" id="49AA095F-0EE0-1E6D-FD78-80D5619902DF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:11:04 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Num_Pregunta" id="6C8BEC93-BCA9-4818-2327-BB7DD2B76A33">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:11:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Alternativas" id="770AAFB3-5944-A503-5EA9-1B5433741BFE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:20:48 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estudiante_rut" id="A8A4801B-56B1-32B1-A769-73C31618BADF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:40:37 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Repuestas_estudiante_FK" id="F963851A-440B-9BC5-E390-C282A1C59D2A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:40:37 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Repuestas_PK" id="EA807718-413D-AA62-D4BD-B462B6C16051">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:11:04 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

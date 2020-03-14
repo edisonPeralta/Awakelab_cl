@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45F04EDA-7637-39F1-7B83-DD2D488273E8" name="test">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>35CCEC1C-3EBD-7E2D-3CBD-1EC249847271</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_test" id="E376416A-9E47-65C6-DED2-B09D33CA912A">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>E3EBBBC9-39F5-5407-CAD6-48C1D7BFAAE1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3B5B3079-43F7-3363-5059-C3FB06E6C475">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>3231FD28-C955-0055-7D93-FBADC3A3B13B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B0AEF67A-7B3E-FF92-AA87-E7E8BD5DE853</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="F5074A8E-ACC1-8FE7-592B-F8EA833F9A98">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>522265F9-013C-2EFD-5D9E-C08E65BF2F59</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CA375D4-561B-77DE-6D3F-C5836943F256</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programa" id="131D85A2-02AD-A57C-FE8D-59AED81A68F8">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>A17C3CC2-E1B5-239E-E5E0-66BCCE4866C2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CA375D4-561B-77DE-6D3F-C5836943F256</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad" id="09009408-8BCF-453C-E981-E6560B7E9A7E">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>28E8A5B6-F357-3D4C-7877-61DD510F7CC4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CA375D4-561B-77DE-6D3F-C5836943F256</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="E2B78A44-17CD-1A60-82FE-84974AB005A0">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>16F0C761-CB63-E218-40EA-408F9B698BD2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CA375D4-561B-77DE-6D3F-C5836943F256</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="4CF703A9-2A7D-DF59-12F8-092A79930D0C">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>9F898CE9-4474-3B1D-1998-E3DE9C218A5D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33BAE3F7-97CA-F5DF-5AB5-8B926853BED5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_id_curso" id="80F87159-2A40-B371-4B3D-4C1A8443ADEC">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>730F7F8C-65A1-A724-0D00-286A3212F680</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="765541E9-3725-4F2E-60A0-3DCCA95146E5" referredColumn="FC341B2F-B696-666D-189F-778C74E15CAA"/>
+</associations>
+</Column>
+<Column name="alternativas_id_alternativa" id="0079C222-246D-BDBB-9A88-2062464E416A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:10:20 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A3E65AF-AF6D-A0B9-785B-B02E101CBEE2" referredColumn="BC40FB54-7731-B312-DE94-805CA1E61A9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35E5A5D9-2F9B-8118-3388-A602F4728E86" name="test_pk">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>C80C005B-AC1B-E5B7-80C8-AAC7D0A8162A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E376416A-9E47-65C6-DED2-B09D33CA912A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615E5B58-EC3A-27BA-7023-437685AF3407" name="test_curso_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80F87159-2A40-B371-4B3D-4C1A8443ADEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C7F2C3F-F24A-062E-9199-82560C2E38DC" name="test_alternativas_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:10:20 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0079C222-246D-BDBB-9A88-2062464E416A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

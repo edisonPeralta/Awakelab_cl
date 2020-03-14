@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B8D62E-5DC6-2048-5996-18D86E7A598B" name="Repuestas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:10:33 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Respuestas" id="49AA095F-0EE0-1E6D-FD78-80D5619902DF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:11:04 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Pregunta" id="6C8BEC93-BCA9-4818-2327-BB7DD2B76A33">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:11:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alternativas" id="770AAFB3-5944-A503-5EA9-1B5433741BFE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:20:48 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estudiante_rut" id="A8A4801B-56B1-32B1-A769-73C31618BADF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:40:37 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33BAE3F7-97CA-F5DF-5AB5-8B926853BED5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="958B0890-3763-D5EB-A709-D3EE307B9F13" referredColumn="A03853F5-DEDF-3CDD-4A05-16DCAC669063"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA807718-413D-AA62-D4BD-B462B6C16051" name="Repuestas_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:11:04 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49AA095F-0EE0-1E6D-FD78-80D5619902DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F963851A-440B-9BC5-E390-C282A1C59D2A" name="Repuestas_estudiante_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:40:37 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A4801B-56B1-32B1-A769-73C31618BADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

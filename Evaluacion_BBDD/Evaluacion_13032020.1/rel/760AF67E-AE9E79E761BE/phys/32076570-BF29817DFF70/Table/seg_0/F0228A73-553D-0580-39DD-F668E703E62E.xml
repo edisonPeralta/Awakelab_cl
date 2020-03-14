@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="alternativas" directorySegmentName="seg_0" id="F0228A73-553D-0580-39DD-F668E703E62E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="valor_logico" id="2D808393-776E-716D-9F04-70631BB19AB2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valor_porcentual" id="34A1A734-2E0D-710B-C0A3-AB4F5F80543D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="preguntas_id_unico" id="66CC7DEA-42B7-43D4-27AD-B83141C164EE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="BBBCF56D-8C6A-A155-01CC-1C93A397667E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_alternativa" id="BC40FB54-7731-B312-DE94-805CA1E61A9F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="alternativas_preguntas_fk" id="0F6CE091-9FAD-D41D-DCB7-3B1BAA9325FB">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="alternativas_pk" id="022589AC-7500-FD70-714D-A5C64D49473B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

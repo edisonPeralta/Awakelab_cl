@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A809EDA7-C473-952E-39A3-4C8CB5B107AA" name="estudiante">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>7552CDE6-3537-8BEC-49A3-650D5A9229DB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="A03853F5-DEDF-3CDD-4A05-16DCAC669063">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>E55FE70A-2289-053B-10D1-E75F1C12BCD1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33BAE3F7-97CA-F5DF-5AB5-8B926853BED5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C5AB2930-055C-CD62-F817-6DBEAF985B56">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>7B362D7E-C3EC-184D-1F4B-6E71B3234767</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E8C4E843-2408-AD39-519F-A97D1973158D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="9C43B3ED-F7FA-278A-6705-8B70F82A9188">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>7663F684-577B-A69B-EFE1-614E55134B6F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E8C4E843-2408-AD39-519F-A97D1973158D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_id_curso" id="2E43353A-2FC8-DF92-A686-F9113B537AE8">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>13D91961-F8C7-9AB3-A92C-9B77F9839B34</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CE9362C-EC3D-1D20-C00F-F675E0E2877B" referredColumn="FC341B2F-B696-666D-189F-778C74E15CAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D68F727-CB12-CC8E-1F3A-16B0FE44D06B" name="estudiante_pk">
+<sourceDDLFile>Evaluacion_12032021.ddl</sourceDDLFile>
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<importedID>9302BBFA-B6B7-DF32-693E-82D40BF004B3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03853F5-DEDF-3CDD-4A05-16DCAC669063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="299489FA-EE19-FF5F-EACB-3FAA0E370E05" name="estudiante_curso_fk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:09:38 UTC</createdTime>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E43353A-2FC8-DF92-A686-F9113B537AE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

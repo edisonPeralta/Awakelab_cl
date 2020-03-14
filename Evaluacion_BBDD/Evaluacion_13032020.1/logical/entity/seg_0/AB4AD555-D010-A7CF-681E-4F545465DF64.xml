@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB4AD555-D010-A7CF-681E-4F545465DF64" name="preguntas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:27:18 UTC</createdTime>
+<generatorID>DB94729D-A1A8-76DD-4D27-2020724BF3BF</generatorID>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<engineerTo>
+<item key="760AF67E-86E5-3E5D-FB06-AE9E79E761BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id preguntas" id="90DFF20D-B12C-8C8F-4413-C2509FA5C66F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:27:18 UTC</createdTime>
+<generatorID>4FFC272C-A0B8-F5C1-16B4-E2D1331DE055</generatorID>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<engineerTo>
+<item key="760AF67E-86E5-3E5D-FB06-AE9E79E761BE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enunciado" id="9219FBD2-3040-D7BB-DA6F-A4403200CEEA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:27:18 UTC</createdTime>
+<generatorID>D8E9D1EE-CE60-0095-7144-C54EDFA0475A</generatorID>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<engineerTo>
+<item key="760AF67E-86E5-3E5D-FB06-AE9E79E761BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>81CA743D-FAB7-D859-643F-81EE35A98279</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="271239DC-5A5C-9B2A-67A0-ADFBDB4AF277">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:27:18 UTC</createdTime>
+<generatorID>C19739DF-3CCC-B16C-037A-684715A7D87B</generatorID>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<engineerTo>
+<item key="760AF67E-86E5-3E5D-FB06-AE9E79E761BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="test id test" id="82420C58-76DB-F2B5-060D-8DC2A0718642">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:27:18 UTC</createdTime>
+<generatorID>5C55F89D-95C0-F211-10AB-6ECA17AA65F0</generatorID>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<engineerTo>
+<item key="760AF67E-86E5-3E5D-FB06-AE9E79E761BE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>639F706A-AAD8-08C9-F046-381D6916F5E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08902F1B-724C-33FD-AC22-0062B9A8B99B" name="preguntas pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 20:27:18 UTC</createdTime>
+<generatorID>8B8BE7BF-7AAD-E56B-4A41-4A84056A715F</generatorID>
+<ownerDesignName>Evaluacion_13032020.1</ownerDesignName>
+<engineerTo>
+<item key="760AF67E-86E5-3E5D-FB06-AE9E79E761BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90DFF20D-B12C-8C8F-4413-C2509FA5C66F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

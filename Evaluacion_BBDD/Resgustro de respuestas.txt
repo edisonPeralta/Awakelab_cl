@@ -1,0 +1,41 @@
+--Insertar las respuestas.
+--1
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(1, 101, '3', '16116346-5');
+
+--2
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(2, 102, '7', '16116346-5');
+
+--3
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(3, 103, '10', '16116346-5');
+
+--4
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(4, 104, '15', '16116346-5');
+
+--5
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(5, 105, '17', '16116346-5');
+
+
+--6
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(6, 106, '23', '24654835-k');
+
+--7
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(7, 107, '27', '24654835-k');
+
+--8
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(8, 108, '30', '24654835-k');
+
+--9
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(9, 109, '35', '24654835-k');
+
+--10
+INSERT INTO repuestas(id_respuestas, num_pregunta, alternativas, estudiante_rut)
+VALUES(10, 110, '37', '24654835-k');

@@ -7,3 +7,335 @@ VALUES(001, 'BBDD', 'Evaluación de base de datos.', 'FullStack Java Trainnie.',
 INSERT INTO test(id_test, nombre, descripcion, programa, unidad, autor, fecha_creacion, curso_id_curso)
 VALUES(002, 'PSeInt', 'Evaluación uso de PSeInt.', 'Programación back end', 'Talento Digital', 'Awakelab', '08/04/2020', 026);
 
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+--Insertar datos de las preguntas del test 1.
+--Insertar datos a las alternativas del test 1.
+--1
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(101, 'Cuales son los estados del agua?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(1, 'Solido', 1, 50, 101, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(2, 'Fluido', 0, 0, 101, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(3, 'Liquido', 1, 50, 101, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(4, 'Áspero', 0, 0, 101, 001);
+
+--2
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(102, 'Que habilidades tiene la boca?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(5, 'Escribir', 0, 0, 102, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(6, 'Hablar', 1, 50, 102, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(7, 'Cantar', 1, 50, 102, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(8, 'Toser', 0, 0, 102, 001);
+
+--3
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(103, 'El 30% de 900 es:', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(9, '2.700', 0, 0, 103, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(10, '270', 0, 0, 103, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(11, '27', 1, 100, 103, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(12, '7', 0, 0, 103, 001);
+
+--4
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(104, 'Cual es el 25% de 60.000?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(13, '2.400', 0, 0, 104, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(14, '15.000', 1, 100, 104, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(15, '42.667', 0, 0, 104, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(16, '45.000', 0, 0, 104, 001);
+
+--5
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(105, 'Cual es el 1% de mil?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(17, '0,1', 0, 0, 105, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(18, '1', 0, 0, 105, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(19, '10', 1, 100, 105, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(20, '100', 0, 0, 105, 001);
+
+--6
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(106, 'en un curso de 28 alumnos, las niñas y niños estan en razón 4:3 ¿Cuantas niñas hay en este curso?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(21, '12', 0, 0, 106, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(22, '14', 0, 0, 106, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(23, '16', 1, 100, 106, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(24, '18', 0, 0, 106, 001);
+
+--7
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(107, 'Mario usa 5 tomates para preparar 500ml de salsa ¿Cuánta salsa se puede hacer con 15 tomates?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(25, 'Un litro y medio.', 1, 100, 107, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(26, '2 Litros.', 0, 0, 107, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(27, 'Dos litros y medio.', 0, 0, 107, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(28, '3 Litros.', 0, 0, 107, 001);
+
+--8
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(108, 'Cinco obreros hacen un trabajo en 6 días. ¿Cuántos días demorarán en hacer el mismo trabajo 3  obreros?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(29, '3 Días', 0, 0, 108, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(30, '10 Días', 0, 0, 108, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(31, '2,5 Días', 0, 0, 108, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(32, '18 Días', 1, 100, 108, 001);
+
+--9
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(109, 'Una tienda ofrece el 20% de descuento. Si pagué $10.000 por un artículo, ¿Cuál fue el monto del descuento?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(33, '2.000', 1, 100, 109, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(34, '2.500', 0, 0, 109, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(35, '4.000', 0, 0, 109, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(36, '1.250', 0, 0, 109, 001);
+
+--10
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(110, 'Dos niños deben recoger fruta, entre ambos deben hacer 60 kilos. Si sus edades están en la razón 1:5 y la razón de lo que recogen es proporcional a ello, entonces, ¿cuántos kilos recoge el mayor?', 10, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(37, '10 Kilos', 0, 0, 110, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(38, '60 Kilos', 0, 0, 110, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(39, '54 Kilos', 0, 0, 110, 001);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(40, '50 Kilos', 1, 100, 110, 001);
+
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+--Insertar datos de las preguntas del test 2.
+--Insertar datos a las alternativas del test 2.
+--1
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(111, 'Cuales son los estados del agua?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(41, 'Fluido', 0, 0, 111, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(42, 'Gaseoso', 1, 50, 111, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(43, 'Liquido', 1, 50, 111, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(44, 'Áspero', 0, 0, 111, 002);
+
+--2
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(112, 'Que habilidades tiene la boca?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(45, 'Hablar', 1, 50, 112, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(46, 'Escribir', 0, 0, 112, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(47, 'Cantar', 1, 50, 112, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(48, 'Toser', 0, 0, 112, 002);
+
+--3
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(113, 'El 30% de 900 es:', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(49, '2.700', 0, 0, 113, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(50, '27', 1, 100, 113, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(51, '270', 0, 0, 113, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(52, '7', 0, 0, 113, 002);
+
+--4
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(114, 'Cual es el 25% de 60.000?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(53, '2.400', 0, 0, 114, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(54, '15.000', 1, 100, 114, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(55, '42.667', 0, 0, 114, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(56, '45.000', 0, 0, 114, 002);
+
+--5
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(115, 'Cual es el 1% de mil?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(57, '0,1', 0, 0, 115, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(58, '10', 1, 100, 115, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(59, '1', 0, 0, 115, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(60, '100', 0, 0, 115, 002);
+
+--6
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(116, 'en un curso de 28 alumnos, las niñas y niños estan en razón 4:3 ¿Cuantas niñas hay en este curso?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(61, '16', 1, 100, 116, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(62, '14', 0, 0, 116, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(63, '12', 0, 0, 116, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(64, '18', 0, 0, 116, 002);
+
+--7
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(117, 'Mario usa 5 tomates para preparar 500ml de salsa ¿Cuánta salsa se puede hacer con 15 tomates?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(65, 'Un litro y medio.', 1, 100, 117, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(66, '2 Litros.', 0, 0, 117, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(67, 'Dos litros y medio.', 0, 0, 117, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(68, '3 Litros.', 0, 0, 117, 002);
+
+--8
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(118, 'Cinco obreros hacen un trabajo en 6 días. ¿Cuántos días demorarán en hacer el mismo trabajo 3  obreros?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(69, '3 Días', 0, 0, 118, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(70, '18 Días', 1, 100, 118, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(71, '2,5 Días', 0, 0, 118, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(72, '10 Días', 0, 0, 118, 002);
+
+--9
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(119, 'Una tienda ofrece el 20% de descuento. Si pagué $10.000 por un artículo, ¿Cuál fue el monto del descuento?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(73, '2.500', 0, 0, 119, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(74, '2.000', 1, 100, 119, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(75, '4.000', 0, 0, 119, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(76, '1.250', 0, 0, 119, 002);
+
+--10
+INSERT INTO preguntas(id_preguntas, enunciado, puntaje, test_id_test)
+VALUES(120, 'Dos niños deben recoger fruta, entre ambos deben hacer 60 kilos. Si sus edades están en la razón 1:5 y la razón de lo que recogen es proporcional a ello, entonces, ¿cuántos kilos recoge el mayor?', 10, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(77, '10 Kilos', 0, 0, 120, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(78, '50 Kilos', 1, 100, 120, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(79, '54 Kilos', 0, 0, 120, 002);
+
+INSERT INTO alternativas(id_alternativa, descripcion, valor_logico, valor_porcentual, preguntas_id_preguntas, test_id_test)
+VALUES(80, '58 Kilos', 0, 0, 120, 002);
+
